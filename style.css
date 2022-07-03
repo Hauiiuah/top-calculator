@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+
+}
+.gui{
+    width: 50%;
+    border:1px solid black;
+    border-radius: 15px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#display{
+    background-color: lightblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.top{
+
+    width: 100%;
+}
+.bottom{
+    display:flex;
+    padding-bottom: 20px;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+#numpad{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.btn-row{
+    display: flex;
+    gap: 10px;
+}
+#operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.btn, .op{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.btn:hover{
+    background-color: lightblue;
+
+}
+.op{
+    background-color: lightseagreen;
+}
+
+.op:hover{
+    background-color: lightcyan;
+}
+
+
+.double-w{
+
+    width: 70px;
+
+}
+
+.double-h{
+    height: 70px;
+}
+
+
+
