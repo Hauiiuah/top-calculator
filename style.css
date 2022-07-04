@@ -26,18 +26,32 @@
     flex-direction: column;
     
 }
-#display{
+#display , #history{
+    
+    display: flex;
+    align-items: center;
     background-color: lightblue;
+    
+}
+#history{
+    justify-content: left;
+    padding-left: 25px;
+    padding-block: 10px;
+    height: 30px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-bottom: 1px dotted black;
+}
+#display{
+    justify-content: right;
     border-bottom: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 60px;
     font-size: 32px;
     font-weight: 600;
+    padding-right: 25px;
+
 }
+
 .top{
 
     width: 100%;
